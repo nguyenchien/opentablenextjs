@@ -3,9 +3,7 @@ import { NavBar } from "../../../components";
 
 export default function RestaurantMenu() {
   return (
-    <main className="bg-gray-100 min-h-screen w-screen">
-      <main className="max-w-screen-2xl m-auto bg-white">
-        <NavBar />
+      <>
         {/* HEADER */}
         <div className="h-96 overflow-hidden">
           <div
@@ -47,7 +45,6 @@ export default function RestaurantMenu() {
           </div>
         </div>
         {/* DESCRIPTION PORTION */}
-      </main>
-    </main>
+      </>
   )
 }
