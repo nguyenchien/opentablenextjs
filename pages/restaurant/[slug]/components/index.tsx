@@ -6,6 +6,7 @@ import Description from './Description';
 import Images from './Images';
 import Reviews from './Reviews';
 import ReservationCard from './ReservationCard';
+import Menu from './Menu';
 
 export {
   Header,
@@ -16,4 +17,5 @@ export {
   Images,
   Reviews,
   ReservationCard,
+  Menu,
 }
